@@ -1,5 +1,5 @@
-FROM node:latest
-MAINTAINER Christian Lück <christian@lueck.tv>
+FROM node:6-alpine
+LABEL maintainer="Narate Ketram <koonnarate@gmail.com>"
 
 RUN npm install -g json-server
 
